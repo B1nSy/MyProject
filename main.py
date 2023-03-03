@@ -57,7 +57,7 @@ async def parse_links(spreadsheet_id, range_name, file):
 
 async def main():
     with open('discord.json', 'a') as file:
-        spreadsheet_id = '1h0HRIQ19Dd3krZz9vtAujEbzI-tnqkjPW3q5vStooeA' #Your spreadheet ID
+        spreadsheet_id = '1h0HRIQ19Dd3krZz9vtAujEbzI-tnqkjPW3q5vSto0ea' #Your spreadheet ID
         range_name = 'B10:B447' #Range
         json.dump(discord, file)
 
